@@ -44,7 +44,13 @@ https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/fde81249-5d40-4
 Also, this dataset includes images of people who are not in front of the camera with the same clothes.
 Pay attention to the image below, this identity was present in several frames with a tent and in the rest of the frames with a mantle.
 
-![2](https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/ec09a671-b130-408a-aaa5-c405d2d81c08)
+
+
+https://github.com/ComputerVisionIUST/IUST_PersonReId/assets/68585351/18088e25-25c6-4997-a55a-78e59218f23f
+
+
+
+
 
 The statistical comparison of the world's famous labeled datasets with our dataset is given in the following table:
 
@@ -61,7 +67,7 @@ The statistical comparison of the world's famous labeled datasets with our datas
 ### Download dataset
 The dataset package is can be downloaded from any of the following links:
 
-[Link 1] (Google Drive)
+https://drive.google.com/file/d/1BoBmL1FtYON4coItUbvBFWlS4vUw8Qz_/view?usp=sharing
 
 ### Bboxes naming convention
 
