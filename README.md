@@ -33,14 +33,14 @@ The number of IDs that have been synchronized in several cameras have been viewe
 
 To know the details of annotation rules, you can refer to the following link:
 
-| Dataset | Location  | ID-multi cam | ID-single cam | scenes | images |
-| :---: | ------  | :---:  | :---:  | :---:  | :---:  |
+| Dataset | Location  | ID-multi camera | ID-single camera | scenes | images |
+| ----- | ------  | :---:  | :---:  | :---:  | :---:  |
 | ScoreNet  | Football leagues | 243432 | - | -| 340993|
 | MSMT17  | University campus | 4101 | - | 15| 126441 |
 | Duke | Duke University campus | 1413 | 439 | 8 | 466261 |
 | MARS | Tsinghua University campus | 1261 | - | 6  | 1191003 |
 | Market1501 | Supermarket in Tsinghua University | 1501 | - | 6 | 32217 |
-| IUST | Supermarket in Tsinghua University | 1501 | - | 6 | 32217 |
+| IUST | Different places inside Iran | 1470 | 1842 | 18 | - |
 
 https://docs.google.com/document/d/1rZ8E1QVWvn_c9F-WZD
 
