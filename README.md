@@ -26,7 +26,12 @@ First, it uses the YOLO model trained on the COCO dataset as a pedestrian detect
 Second, it uses the ByteTrack model trained on the Crowd Human dataset as pedestrian tracking.
 Third, since the above AI models may not be efficient enough (such as not detecting when entering and exiting the camera range, not detecting veiled people, not detecting pedestrian equipment, or switching IDs, etc.), human annotators change the annotation. they give. It is made in such a way that the least possible errors occur in the training of the models in terms of the dataset.
 Fourth, a basic person reidentification model was implemented using Swin Transformer on the cropped images of the frames.
-Fifth, human observers were used to correct  person re-identification errors in different cameras. This work is done in the framework of a developed application specific to the subject of re-identification.
+Fifth, human observers were used to correct the re-identification errors of people in different cameras along with the temporal re-identification algorithm. This work is done in the framework of a developed application specific to the subject of re-identification.
+
+The number of IDs that have been synchronized in several cameras have been viewed:
+![Labeled data](https://github.com/ComputerVisionIUST/IUST_PersonReId/assets/68585351/e53015a6-2a5e-4ad5-9992-ef78949f1e67)
+
+
 To know the details of annotation rules, you can refer to the following link:
 
 https://docs.google.com/document/d/1rZ8E1QVWvn_c9F-WZD
