@@ -23,8 +23,11 @@ These videos were recorded by cameras with different resolution quality in place
 Currently, more than 270,000 frames containing 32,668 annotated border boxes with 1501 identities have been annotated among the prepared raw videos.Also, in terms of gender, this dataset contains 50 female identities and 20 male identities. The IRIUST dataset has four salient features:
 
 First, it uses the YOLOE model trained on the crowdhuman dataset as pedestrian tracking.
+
 Second, since the above AI models may not be efficient enough (such as not detecting when entering and exiting the camera range, not detecting veiled people, not detecting pedestrian equipment, or switching IDs, etc.), human annotators change the annotation. they give. It is made in such a way that the least possible errors occur in the training of the models in terms of the dataset.
+
 Third, a basic person reidentification model was implemented using Swin Transformer on the cropped images of the frames.
+
 Fourth, human observers were used to correct the re-identification errors of people in different cameras along with the temporal re-identification algorithm. This work is done in the framework of a developed application specific to the subject of re-identification.
 
 The number of IDs that have been synchronized in several cameras have been viewed:
@@ -32,15 +35,6 @@ The number of IDs that have been synchronized in several cameras have been viewe
 
 
 To know the details of annotation rules, you can refer to the following link:
-
-| Dataset | Location  | ID-multi camera | ID-single camera | scenes | images |
-| ----- | ------  | :---:  | :---:  | :---:  | :---:  |
-| ScoreNet  | Football leagues | 243432 | - | -| 340993|
-| MSMT17  | University campus | 4101 | - | 15| 126441 |
-| Duke | Duke University campus | 1413 | 439 | 8 | 466261 |
-| MARS | Tsinghua University campus | 1261 | - | 6  | 1191003 |
-| Market1501 | Supermarket in Tsinghua University | 1501 | - | 6 | 32217 |
-| IUST | Different places inside Iran | 1470 | 1842 | 18 | - |
 
 https://docs.google.com/document/d/1rZ8E1QVWvn_c9F-WZD
 
@@ -54,6 +48,14 @@ Pay attention to the image below, this identity was present in several frames wi
 
 The statistical comparison of the world's famous labeled datasets with our dataset is given in the following table:
 
+| Dataset | Location  | ID-multi camera | ID-single camera | scenes | images |
+| ----- | ------  | :---:  | :---:  | :---:  | :---:  |
+| ScoreNet  | Football leagues | 243432 | - | -| 340993|
+| MSMT17  | University campus | 4101 | - | 15| 126441 |
+| Duke | Duke University campus | 1413 | 439 | 8 | 466261 |
+| MARS | Tsinghua University campus | 1261 | - | 6  | 1191003 |
+| Market1501 | Supermarket in Tsinghua University | 1501 | - | 6 | 32217 |
+| IUST | Different places inside Iran | 1470 | 1842 | 18 | - |
 
 
 ### Download dataset
@@ -64,6 +66,9 @@ The dataset package is can be downloaded from any of the following links:
 ### Bboxes naming convention
 
 For example: C1_F6595_ID10.jpeg
-"C1" is the camera number at that particular location
-"F6595" is the frame number of that person in the partitioned movie
-"ID10" is the identity number of the person in the provided collection
+
+"C1" is the camera number at that particular location.
+
+"F6595" is the frame number of that person in the partitioned movie.
+
+"ID10" is the identity number of the person in the provided collection.
