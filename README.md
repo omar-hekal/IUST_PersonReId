@@ -19,12 +19,14 @@ These videos were recorded by cameras with different resolution quality in place
 | local supermarket | 6 | 124 h | 1280×1944  | 4 |
 | Arbaeen procession | 2 | 3 h | 1280×720 | 5 |
 
+# Update
 Currently, more than 270,000 frames containing 32,668 annotated border boxes with 1501 identities have been annotated among the prepared raw videos.Also, in terms of gender, this dataset contains 50 female identities and 20 male identities. The IRIUST dataset has four salient features:
 
 First, it uses the YOLO model trained on the COCO dataset as a pedestrian detector.
 Second, it uses the ByteTrack model trained on the Crowd Human dataset as pedestrian tracking.
-Third, it uses the Gender Classification model trained on a portion of the same dataset as gender detector.
-Fourth, because the above artificial intelligence models may not have sufficient efficiency (such as not detection when entering and leaving the camera range, not detection veiled people, not detection pedestrians' equipment, or ID Switching, etc.), human annotators modify the annotations made so that the least possible bugs occur in the training of the models in terms of the dataset.
+Third, since the above AI models may not be efficient enough (such as not detecting when entering and exiting the camera range, not detecting veiled people, not detecting pedestrian equipment, or switching IDs, etc.), human annotators change the annotation. they give. It is made in such a way that the least possible errors occur in the training of the models in terms of the dataset.
+Fourth, a basic person reidentification model was implemented using Swin Transformer on the cropped images of the frames.
+Fifth, human observers were used to correct  person re-identification errors in different cameras. This work is done in the framework of a developed application specific to the subject of re-identification.
 To know the details of annotation rules, you can refer to the following link:
 
 https://docs.google.com/document/d/1rZ8E1QVWvn_c9F-WZD
