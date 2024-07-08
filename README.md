@@ -62,8 +62,8 @@ The dataset package is can be downloaded from any of the following links:
 [Link 1] (Google Drive)
 
 ### Bboxes naming convention
-In bbox "D1_F29115_ID5.jpg", "D1" is the name of the first camera.
 
-"F29115" is the 29115th frame in camera "D1".
-
-"ID5" is the name of the 5th identity in synchronized cameras.
+For example: C1_F6595_ID10.jpeg
+"C1" is the camera number at that particular location
+"F6595" is the frame number of that person in the partitioned movie
+"ID10" is the identity number of the person in the provided collection
