@@ -22,11 +22,11 @@ These videos were recorded by cameras with different resolution quality in place
 # Update
 Currently, more than 270,000 frames containing 32,668 annotated border boxes with 1501 identities have been annotated among the prepared raw videos.Also, in terms of gender, this dataset contains 50 female identities and 20 male identities. The IRIUST dataset has four salient features:
 
-First, it uses the YOLOE model trained on the crowdhuman dataset as pedestrian tracking.
+First, it uses the [YOLOE](https://github.com/Gaurav14cs17/YOLOE) model trained on the [crowdhuman](https://www.crowdhuman.org/) dataset as pedestrian tracking.
 
 Second, since the above AI models may not be efficient enough (such as not detecting when entering and exiting the camera range, not detecting veiled people, not detecting pedestrian equipment, or switching IDs, etc.), human annotators change the annotation. they give. It is made in such a way that the least possible errors occur in the training of the models in terms of the dataset.
 
-Third, a basic person reidentification model was implemented using Swin Transformer on the cropped images of the frames.
+Third, a basic person reidentification model was implemented using [Swin Transformer](https://github.com/layumi/Person_reID_baseline_pytorch) on the cropped images of the frames.
 
 Fourth, human observers were used to correct the re-identification errors of people in different cameras along with the temporal re-identification algorithm. This work is done in the framework of a developed application specific to the subject of re-identification.
 
@@ -34,9 +34,17 @@ The number of IDs that have been synchronized in several cameras have been viewe
 ![Labeled data](https://github.com/ComputerVisionIUST/IUST_PersonReId/assets/68585351/e53015a6-2a5e-4ad5-9992-ef78949f1e67)
 
 
-To know the details of annotation rules, you can refer to the following link:
+[![Watch the video]()](https://github.com/user-attachments/assets/ef987d49-9f29-423d-a4c4-b7f0a9b2b612)
 
-https://docs.google.com/document/d/1rZ8E1QVWvn_c9F-WZD
+
+
+
+https://github.com/user-attachments/assets/aa5ee71a-a359-484e-8e5b-da43611097a5
+
+
+
+To know the details of annotation rules, you can refer to the following [link](https://docs.google.com/document/d/1rZ8E1QVWvn_c9F-WZDP7kzvAkSqddh-mRWyCYfB-iZY/edit?pli=1)
+
 
 In the demo below, the reason for the inadequacy of using artificial intelligence models is obvious
 https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/fde81249-5d40-4a11-9be4-2117e11c2896
@@ -59,9 +67,7 @@ The statistical comparison of the world's famous labeled datasets with our datas
 
 
 ### Download dataset
-The dataset package is can be downloaded from any of the following links:
-
-https://drive.google.com/file/d/1BoBmL1FtYON4coItUbvBFWlS4vUw8Qz_/view?usp=sharing
+You can download the dataset package from [here](https://drive.google.com/file/d/1BoBmL1FtYON4coItUbvBFWlS4vUw8Qz_/view?usp=sharing)
 
 ### Bboxes naming convention
 
