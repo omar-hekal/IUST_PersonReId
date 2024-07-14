@@ -33,15 +33,12 @@ The statistical comparison of the world's famous labeled datasets with our datas
 
 
 The number of IDs that have been synchronized in several cameras have been viewed:
-![Labeled data](https://github.com/ComputerVisionIUST/IUST_PersonReId/assets/68585351/e53015a6-2a5e-4ad5-9992-ef78949f1e67)
-<div align="center">
-	<img src="![346485021-e53015a6-2a5e-4ad5-9992-ef78949f1e67](https://github.com/user-attachments/assets/848cec04-9f6f-4a46-9bcf-e616f1bf4200)">
-</div>
+<p align="center"><img src="https://github.com/ComputerVisionIUST/IUST_PersonReId/assets/68585351/e53015a6-2a5e-4ad5-9992-ef78949f1e67" width="750"/></p>
 
-### Update
+### Update...
 Currently, more than 270,000 frames containing 32,668 annotated border boxes with 1501 identities have been annotated among the prepared raw videos.Also, in terms of gender, this dataset contains 50 female identities and 20 male identities. The IRIUST dataset has four salient features:
 
-First, it uses the [YOLOE](https://github.com/Gaurav14cs17/YOLOE) model trained on the [crowdhuman](https://www.crowdhuman.org/) dataset as pedestrian tracking.
+First, it uses the [YOLOE](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.7/deploy/pipeline/docs/tutorials/pphuman_mot_en.md) model trained on the [crowdhuman](https://www.crowdhuman.org/) dataset as pedestrian tracking.
 
 Second, since the above AI models may not be efficient enough (such as not detecting when entering and exiting the camera range, not detecting veiled people, not detecting pedestrian equipment, or switching IDs, etc.), human annotators change the annotation. they give. It is made in such a way that the least possible errors occur in the training of the models in terms of the dataset.
 
@@ -53,8 +50,6 @@ Fourth, human observers were used to correct the re-identification errors of peo
 
 
 [![Watch the video]()](https://github.com/user-attachments/assets/ef987d49-9f29-423d-a4c4-b7f0a9b2b612)
-
-
 
 
 https://github.com/user-attachments/assets/aa5ee71a-a359-484e-8e5b-da43611097a5
