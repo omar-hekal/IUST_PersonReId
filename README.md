@@ -19,7 +19,26 @@ These videos were recorded by cameras with different resolution quality in place
 | local supermarket | 6 | 124 h | 1280×1944  | 4 |
 | Arbaeen procession | 2 | 3 h | 1280×720 | 5 |
 
-# Update
+The statistical comparison of the world's famous labeled datasets with our dataset is given in the following table:
+
+| Dataset | Location  | ID-multi camera | ID-single camera | scenes | images |
+| ----- | ------  | :---:  | :---:  | :---:  | :---:  |
+| ScoreNet  | Football leagues | 243432 | - | -| 340993|
+| MSMT17  | University campus | 4101 | - | 15| 126441 |
+| Duke | Duke University campus | 1413 | 439 | 8 | 466261 |
+| MARS | Tsinghua University campus | 1261 | - | 6  | 1191003 |
+| Market1501 | Supermarket in Tsinghua University | 1501 | - | 6 | 32217 |
+| IUST | Different places inside Iran | 1470 | 1842 | 18 | - |
+
+
+
+The number of IDs that have been synchronized in several cameras have been viewed:
+![Labeled data](https://github.com/ComputerVisionIUST/IUST_PersonReId/assets/68585351/e53015a6-2a5e-4ad5-9992-ef78949f1e67)
+<div align="center">
+	<img src="![346485021-e53015a6-2a5e-4ad5-9992-ef78949f1e67](https://github.com/user-attachments/assets/848cec04-9f6f-4a46-9bcf-e616f1bf4200)">
+</div>
+
+### Update
 Currently, more than 270,000 frames containing 32,668 annotated border boxes with 1501 identities have been annotated among the prepared raw videos.Also, in terms of gender, this dataset contains 50 female identities and 20 male identities. The IRIUST dataset has four salient features:
 
 First, it uses the [YOLOE](https://github.com/Gaurav14cs17/YOLOE) model trained on the [crowdhuman](https://www.crowdhuman.org/) dataset as pedestrian tracking.
@@ -30,8 +49,7 @@ Third, a basic person reidentification model was implemented using [Swin Transfo
 
 Fourth, human observers were used to correct the re-identification errors of people in different cameras along with the temporal re-identification algorithm. This work is done in the framework of a developed application specific to the subject of re-identification.
 
-The number of IDs that have been synchronized in several cameras have been viewed:
-![Labeled data](https://github.com/ComputerVisionIUST/IUST_PersonReId/assets/68585351/e53015a6-2a5e-4ad5-9992-ef78949f1e67)
+
 
 
 [![Watch the video]()](https://github.com/user-attachments/assets/ef987d49-9f29-423d-a4c4-b7f0a9b2b612)
@@ -54,16 +72,7 @@ Pay attention to the image below, this identity was present in several frames wi
 
 ![2](https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/ec09a671-b130-408a-aaa5-c405d2d81c08)
 
-The statistical comparison of the world's famous labeled datasets with our dataset is given in the following table:
 
-| Dataset | Location  | ID-multi camera | ID-single camera | scenes | images |
-| ----- | ------  | :---:  | :---:  | :---:  | :---:  |
-| ScoreNet  | Football leagues | 243432 | - | -| 340993|
-| MSMT17  | University campus | 4101 | - | 15| 126441 |
-| Duke | Duke University campus | 1413 | 439 | 8 | 466261 |
-| MARS | Tsinghua University campus | 1261 | - | 6  | 1191003 |
-| Market1501 | Supermarket in Tsinghua University | 1501 | - | 6 | 32217 |
-| IUST | Different places inside Iran | 1470 | 1842 | 18 | - |
 
 
 ### Download dataset
