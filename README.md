@@ -32,6 +32,8 @@ The number of IDs that have been synchronized in several cameras have been viewe
 <p align="center"><img src="![_Labeled Data](https://github.com/user-attachments/assets/67226f29-5ab6-4e36-ac66-b910b48faad1)" width="750"/></p>
 ![_Labeled Data](https://github.com/user-attachments/assets/67af25b9-d743-44a2-96f3-b51eed0e8a08)
 
+![356862965-67af25b9-d743-44a2-96f3-b51eed0e8a08](https://github.com/user-attachments/assets/490f0d3e-db4a-47a0-a79b-5e93135f5510)
+
 
 ### Update...
 Currently, more than 270,000 frames containing 32,668 annotation bounding boxes with 3,205 identities have been annotated among the raw videos. Among them, 1878 identities belong to people who were seen in 2 or more cameras, and 1327 identities belong to people who were present in the range of only 1 camera. Also, in terms of gender, this data set includes 50 female identities and 20 male identities. The IRUST dataset has four salient features::
