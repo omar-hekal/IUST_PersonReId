@@ -59,7 +59,7 @@ https://github.com/user-attachments/assets/aa5ee71a-a359-484e-8e5b-da43611097a5
 
 
 <div align="center">
-  <video src=https://github.com/user-attachments/assets/63b52fbc-dca7-4de5-812a-76ee1bbb6056 width="400" />
+  <video src="https://github.com/user-attachments/assets/63b52fbc-dca7-4de5-812a-76ee1bbb6056" width="400" />
 </div>
 
 
