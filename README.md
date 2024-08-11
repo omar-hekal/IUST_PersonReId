@@ -29,8 +29,9 @@ The statistical comparison of the world's famous labeled datasets with our datas
 
 
 The number of IDs that have been synchronized in several cameras have been viewed:
-<p align="center"><img src="![_Labeled Data](https://github.com/user-attachments/assets/d23e536b-d533-44ea-8ab4-0644cd7a8b9a)" width="750"/></p>
-![_Labeled Data](https://github.com/user-attachments/assets/727c6f22-b2d3-47e6-a69e-b3500032b3ee)
+<p align="center"><img src="![_Labeled Data](https://github.com/user-attachments/assets/67226f29-5ab6-4e36-ac66-b910b48faad1)" width="750"/></p>
+![_Labeled Data](https://github.com/user-attachments/assets/67af25b9-d743-44a2-96f3-b51eed0e8a08)
+
 
 ### Update...
 Currently, more than 270,000 frames containing 32,668 annotation bounding boxes with 3,205 identities have been annotated among the raw videos. Among them, 1878 identities belong to people who were seen in 2 or more cameras, and 1327 identities belong to people who were present in the range of only 1 camera. Also, in terms of gender, this data set includes 50 female identities and 20 male identities. The IRUST dataset has four salient features::
@@ -47,7 +48,6 @@ Fourth, human observers were used to correct the re-identification errors of peo
 
 
 [![Watch the video]()](https://github.com/user-attachments/assets/ef987d49-9f29-423d-a4c4-b7f0a9b2b612)
-
 
 https://github.com/user-attachments/assets/aa5ee71a-a359-484e-8e5b-da43611097a5
 
