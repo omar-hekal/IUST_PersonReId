@@ -59,6 +59,12 @@ https://github.com/user-attachments/assets/aa5ee71a-a359-484e-8e5b-da43611097a5
 
 
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/aa5ee71a-a359-484e-8e5b-da43611097a5" width="400" />
+</div>
+
+
+
 To know the details of annotation rules, you can refer to the following [link](https://docs.google.com/document/d/1rZ8E1QVWvn_c9F-WZDP7kzvAkSqddh-mRWyCYfB-iZY/edit?pli=1)
 
 
