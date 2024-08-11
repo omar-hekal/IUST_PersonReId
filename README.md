@@ -30,10 +30,10 @@ The statistical comparison of the world's famous labeled datasets with our datas
 
 
 The number of IDs that have been synchronized in several cameras have been viewed:
-<p align="center"><img src="https://github.com/ComputerVisionIUST/IUST_PersonReId/assets/68585351/e53015a6-2a5e-4ad5-9992-ef78949f1e67" width="750"/></p>
+<p align="center"><img src="![_Labeled Data](https://github.com/user-attachments/assets/d23e536b-d533-44ea-8ab4-0644cd7a8b9a)" width="750"/></p>
 
 ### Update...
-Currently, more than 270,000 frames containing 32,668 annotated border boxes with 1501 identities have been annotated among the prepared raw videos.Also, in terms of gender, this dataset contains 50 female identities and 20 male identities. The IRIUST dataset has four salient features:
+Currently, more than 270,000 frames containing 32,668 annotation bounding boxes with 3,205 identities have been annotated among the raw videos. Among them, 1878 identities belong to people who were seen in 2 or more cameras, and 1327 identities belong to people who were present in the range of only 1 camera. Also, in terms of gender, this data set includes 50 female identities and 20 male identities. The IRUST dataset has four salient features::
 
 First, it uses the [YOLOE](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.7/deploy/pipeline/docs/tutorials/pphuman_mot_en.md) model trained on the [crowdhuman](https://www.crowdhuman.org/) dataset as pedestrian tracking.
 
