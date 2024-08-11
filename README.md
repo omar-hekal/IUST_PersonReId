@@ -64,7 +64,7 @@ Also, this dataset includes images of people who are not in front of the camera 
 Pay attention to the image below, this identity was present in several frames with a tent and in the rest of the frames with a mantle.
 
 
-![2](https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/ec09a671-b130-408a-aaa5-c405d2d81c08)
+! [2] (https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/ec09a671-b130-408a-aaa5-c405d2d81c08)
 
 
 
