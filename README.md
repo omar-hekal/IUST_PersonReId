@@ -1,7 +1,6 @@
-# IUST_PersonReId Dataset   <p align="left">  [![per](https://img.shields.io/badge/lang-tr-red.svg)](https://https://github.com/ComputerVisionIUST/IUST_PersonReId/edit/main/README.md)  [![tr](https://img.shields.io/badge/lang-pr-yellow.svg)](https://github.com/aytakg/reid/blob/main/README.pr.md)
-![1](https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/782122d5-235a-4314-9d81-7eceec56c960) </p>
+# IUST_PersonReId Dataset   <p align="left">  [![per](https://img.shields.io/badge/lang-tr-red.svg)](https://https://github.com/ComputerVisionIUST/IUST_PersonReId/edit/main/README.md)  [![tr](https://img.shields.io/badge/lang-pr-yellow.svg)](https://github.com/aytakg/reid/blob/main/README.pr.md) </p>
 
-
+![1](https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/782122d5-235a-4314-9d81-7eceec56c960)
 
 ### About dataset
 
@@ -31,6 +30,7 @@ The statistical comparison of the world's famous labeled datasets with our datas
 
 The number of IDs that have been synchronized in several cameras have been viewed:
 <p align="center"><img src="![_Labeled Data](https://github.com/user-attachments/assets/d23e536b-d533-44ea-8ab4-0644cd7a8b9a)" width="750"/></p>
+![_Labeled Data](https://github.com/user-attachments/assets/727c6f22-b2d3-47e6-a69e-b3500032b3ee)
 
 ### Update...
 Currently, more than 270,000 frames containing 32,668 annotation bounding boxes with 3,205 identities have been annotated among the raw videos. Among them, 1878 identities belong to people who were seen in 2 or more cameras, and 1327 identities belong to people who were present in the range of only 1 camera. Also, in terms of gender, this data set includes 50 female identities and 20 male identities. The IRUST dataset has four salient features::
