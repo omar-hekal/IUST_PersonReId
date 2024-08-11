@@ -1,9 +1,6 @@
-# IUST_PersonReId Dataset
+# IUST_PersonReId Dataset   <p align="left">  [![per](https://img.shields.io/badge/lang-tr-red.svg)](https://https://github.com/ComputerVisionIUST/IUST_PersonReId/edit/main/README.md)  [![tr](https://img.shields.io/badge/lang-pr-yellow.svg)](https://github.com/aytakg/reid/blob/main/README.pr.md)
+![1](https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/782122d5-235a-4314-9d81-7eceec56c960) </p>
 
-This dataset is being completed...
-
-
-![1](https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/782122d5-235a-4314-9d81-7eceec56c960)
 
 
 ### About dataset
@@ -28,7 +25,7 @@ The statistical comparison of the world's famous labeled datasets with our datas
 | Duke | Duke University campus | 1413 | 439 | 8 | 466261 |
 | MARS | Tsinghua University campus | 1261 | - | 6  | 1191003 |
 | Market1501 | Supermarket in Tsinghua University | 1501 | - | 6 | 32217 |
-| IUST | Different places inside Iran | 1470 | 1842 | 18 | - |
+| IUST | Different places inside Iran | 1878 | 1327 | 19 | - |
 
 
 
