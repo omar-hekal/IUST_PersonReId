@@ -30,7 +30,6 @@ The statistical comparison of the world's famous labeled datasets with our datas
 
 The number of IDs that have been synchronized in several cameras have been viewed:
 <p align="center"><img src="![_Labeled Data](https://github.com/user-attachments/assets/67226f29-5ab6-4e36-ac66-b910b48faad1)" width="750"/></p>
-![_Labeled Data](https://github.com/user-attachments/assets/67af25b9-d743-44a2-96f3-b51eed0e8a08)
 
 ![356862965-67af25b9-d743-44a2-96f3-b51eed0e8a08](https://github.com/user-attachments/assets/490f0d3e-db4a-47a0-a79b-5e93135f5510)
 
