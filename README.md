@@ -45,9 +45,9 @@ Third, a basic person reidentification model was implemented using [Swin Transfo
 
 Fourth, human observers were used to correct the re-identification errors of people in different cameras along with the temporal re-identification algorithm. This work is done in the framework of a developed application specific to the subject of re-identification.
 
-![888](https://github.com/user-attachments/assets/28014e07-35b1-47c8-b7e5-0abfdcafec30)
-
-![99](https://github.com/user-attachments/assets/11399f88-e4a1-4f0b-80ea-75225e1ac246)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/28014e07-35b1-47c8-b7e5-0abfdcafec30" alt="animated" />
+</p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/11399f88-e4a1-4f0b-80ea-75225e1ac246" alt="animated" />
