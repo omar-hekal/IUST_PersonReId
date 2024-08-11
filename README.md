@@ -60,6 +60,9 @@ https://github.com/user-attachments/assets/cf763092-a9b1-4cdd-8443-eeb9fc9dbc75
 
 
 
+![11](https://github.com/user-attachments/assets/63b52fbc-dca7-4de5-812a-76ee1bbb6056)
+
+
 
 To know the details of annotation rules, you can refer to the following [link](https://docs.google.com/document/d/1rZ8E1QVWvn_c9F-WZDP7kzvAkSqddh-mRWyCYfB-iZY/edit?pli=1)
 
