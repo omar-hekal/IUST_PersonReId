@@ -57,7 +57,7 @@ Fourth, human observers were used to correct the re-identification errors of peo
 
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/aa5ee71a-a359-484e-8e5b-da43611097a5" />
+  <video src="https://github.com/user-attachments/assets/aa5ee71a-a359-484e-8e5b-da43611097a5" width="600"  />
 </div>
 
 
