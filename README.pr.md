@@ -1,5 +1,5 @@
 # مجموعه داده IUST_PersonReId <p align="left">   </p>
-<p align="right"> </p> [![per](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ComputerVisionIUST/IUST_PersonReId/blob/main/README.md)  
+<p align="right">   [![per](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ComputerVisionIUST/IUST_PersonReId/blob/main/README.md)   </p>
 
 
 
