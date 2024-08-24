@@ -50,8 +50,9 @@ To know the details of annotation rules, you can refer to the following [link](h
 
 In the demo below, the reason for the inadequacy of using artificial intelligence models is obvious
 
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/28014e07-35b1-47c8-b7e5-0abfdcafec30" alt="animated" />
+  <img src="https://github.com/user-attachments/assets/ae6eadc9-dbe5-46c7-bf1a-0733830069d3" alt="animated" />
 </p>
 
 <p align="center">
