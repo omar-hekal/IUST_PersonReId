@@ -67,7 +67,7 @@ Fourth, human observers were used to correct the re-identification errors of peo
 
 
 
-To know the details of annotation rules, you can refer to the following [link](https://docs.google.com/document/d/1rZ8E1QVWvn_c9F-WZDP7kzvAkSqddh-mRWyCYfB-iZY/edit?pli=1)
+To know the details of annotation rules, you can refer to the following [link](https://docs.google.com/document/d/1Upnm1nJ9e8Jn3odAjlbICwgNXtRzPghF7wl5_eQRcdo/edit?usp=sharing)
 
 
 In the demo below, the reason for the inadequacy of using artificial intelligence models is obvious
