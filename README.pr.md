@@ -71,7 +71,6 @@
 
 در دموهای زیر، به ترتیب دلیل عدم کفایت استفاده از مدل های هوش مصنوعی در بازشناسی افراد و تشخیص انسان مشخص است.
 
-https://github.com/IRUIST/Iranians_Reid_dataset/assets/141324225/fde81249-5d40-4a11-9be4-2117e11c2896
 
 <p align="center">
  <img src="https://github.com/user-attachments/assets/28014e07-35b1-47c8-b7e5-0abfdcafec30" alt="animated" />
