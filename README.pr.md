@@ -10,7 +10,7 @@
 
 ![258628407-782122d5-235a-4314-9d81-7eceec56c960](https://github.com/user-attachments/assets/d35227db-ad22-4116-b211-804ef4bd831f)
 
-![1](https://github.com/IRUIST/Iranians_Reid_dataset/assets/141324225/782122d5-235a-4314-9d81-7eceec56c960)
+
 
 ### درباره مجموعه داده
 
