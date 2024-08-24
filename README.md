@@ -1,4 +1,4 @@
-# IUST_PersonReId Dataset   <p align="left">  [![per](https://img.shields.io/badge/lang-tr-red.svg)](https://https://github.com/ComputerVisionIUST/IUST_PersonReId/edit/main/README.md)  [![tr](https://img.shields.io/badge/lang-pr-yellow.svg)](https://github.com/aytakg/reid/blob/main/README.pr.md) </p>
+# IUST_PersonReId Dataset   <p align="left">  [![per](https://img.shields.io/badge/lang-tr-red.svg)](https://https://github.com/ComputerVisionIUST/IUST_PersonReId/edit/main/README.md)  [![tr](https://img.shields.io/badge/lang-pr-yellow.svg)](https://github.com/ComputerVisionIUST/IUST_PersonReId/blob/main/README.pr.md) </p>
 
 ![1](https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/782122d5-235a-4314-9d81-7eceec56c960)
 
