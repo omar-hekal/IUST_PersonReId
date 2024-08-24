@@ -47,8 +47,10 @@
 تعداد شناسه هایی که در چندین دوربین همگام شده اند مشاهده شده است:
 
 
-<p align="center"><img src="![_Labeled Data](https://github.com/user-attachments/assets/67226f29-5ab6-4e36-ac66-b910b48faad1)" width="750"/ </p>
+<p align="center"><img src="![image](https://github.com/user-attachments/assets/3ebe8941-c7f5-4d8f-8e9f-10b6e4762b40)
+" width="750"/ </p>
 
+![image](https://github.com/user-attachments/assets/8d3878e8-92c1-4293-b909-0c6a6f7ebc14)
 
 
 ![356862965-67af25b9-d743-44a2-96f3-b51eed0e8a08](https://github.com/user-attachments/assets/490f0d3e-db4a-47a0-a719b-59)
