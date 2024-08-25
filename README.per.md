@@ -105,7 +105,7 @@
 
 
 ### دانلود مجموعه داده
-می‌توانید بسته مجموعه داده را از [اینجا] دانلود کنید (https://drive.google.com/file/d/1BoBmL1FtYON4coItUbvBFWlS4vUw8Qz_/view?usp=sharing)
+می‌توانید بسته مجموعه داده را از [اینجا](https://zaya.io/cnzrl) دانلود کنید.
 
 ### فرمت نامگذاری Bboxes
 
