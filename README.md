@@ -61,17 +61,6 @@ In the demo below, the reason for the inadequacy of using artificial intelligenc
 
 
 
-<div align="center">
-  <video src="https://github.com/user-attachments/assets/ef987d49-9f29-423d-a4c4-b7f0a9b2b612" />
-</div>
-
-
-
-<div align="center">
-  <video src="https://github.com/user-attachments/assets/aa5ee71a-a359-484e-8e5b-da43611097a5" width="600"  />
-</div>
-
-
 Also, this dataset includes images of people who are not in front of the camera with the same clothes.
 Pay attention to the image below, this identity was present in several frames with a tent and in the rest of the frames with a mantle.
 
