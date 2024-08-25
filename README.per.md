@@ -48,8 +48,7 @@
 
 
 
-<p align="right"><img src="https://github.com/user-attachments/assets/3ebe8941-c7f5-4d8f-8e9f-10b6e4762b40" width="650"/ </p>
-
+<p align="right"><img src="https://github.com/user-attachments/assets/4c2fd821-9513-43d3-946f-90e10bb90064" width="650"/ </p>
 
 
 
@@ -83,15 +82,7 @@
 
 
 
-<div align="center">
- <video src="https://github.com/user-attachments/assets/ef987d49-9f29-423d-a4c4-b7f0a9b2b612" />
-</div>
 
-
-
-<div align="center">
- <video src="https://github.com/user-attachments/assets/aa5ee71a-a359-484e-8e5b-da43611097a5" width="600" />
-</div>
 
 
 
