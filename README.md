@@ -81,7 +81,7 @@ Pay attention to the image below, this identity was present in several frames wi
 
 
 ### Download dataset
-You can download the dataset package from [here](https://drive.google.com/file/d/1BoBmL1FtYON4coItUbvBFWlS4vUw8Qz_/view?usp=sharing)
+You can download the dataset package from [here](https://zaya.io/cnzrl)
 
 ### Bboxes naming convention
 
