@@ -1,4 +1,4 @@
-# IUST_PersonReId Dataset  
+# IUST_PersonReID Dataset  
 <p align="left">  
   [![per](https://img.shields.io/badge/lang-per-yellow.svg)](https://github.com/ComputerVisionIUST/IUST_PersonReId/blob/main/README.per.md)  
 </p>
@@ -7,7 +7,7 @@
 
 ## About the Dataset
 
-The **IRIUST** dataset is distinct from international datasets, designed specifically to reflect the cultural and environmental context of Iran. It captures raw video footage from various locations under diverse conditions (e.g., film quality, lighting, camera angles), making it a valuable representation of real-world scenarios. The dataset includes overlapping fields of view from multiple cameras.
+The **IUST_PersonReID** dataset is distinct from international datasets, designed specifically to reflect the cultural and environmental context of Iran. It captures raw video footage from various locations under diverse conditions (e.g., film quality, lighting, camera angles), making it a valuable representation of real-world scenarios. The dataset includes overlapping fields of view from multiple cameras.
 
 ### Recorded Locations
 The videos were recorded in the following locations, with details summarized in the table below:
@@ -30,7 +30,7 @@ The following table compares our dataset with some well-known labeled datasets g
 | Duke       | Duke University Campus   | 1413               | 439                 | 8      | 466261   |
 | MARS       | Tsinghua University     | 1261               | -                   | 6      | 1191003  |
 | Market1501 | Supermarket, Tsinghua   | 1501               | -                   | 6      | 32217    |
-| **IUST**   | Various Locations in Iran| **1878**           | **1327**            | 19     | -        |
+| **IUST_PersonReID**   | Various Locations in Iran| **1878**           | **1327**            | 19     | -        |
 
 ### Annotation Statistics
 As of now, the dataset contains over 270,000 frames with 32,668 annotated bounding boxes across 3,205 identities. Notably, 1,878 identities appear in multiple cameras, while 1,327 identities are unique to a single camera. Gender distribution includes 50 female and 20 male identities.
