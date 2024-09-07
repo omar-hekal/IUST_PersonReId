@@ -1,7 +1,9 @@
 # IUST_PersonReID Dataset  
-<p align="left">  
-  [![per](https://img.shields.io/badge/lang-per-yellow.svg)](https://github.com/ComputerVisionIUST/IUST_PersonReId/blob/main/README.per.md)  
-</p>
+<div align="left">
+ 
+[![per](https://img.shields.io/badge/lang-per-yellow.svg)](https://github.com/ComputerVisionIUST/IUST_PersonReId/blob/main/README.per.md)  
+
+</div>
 
 ![Dataset Overview](https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/782122d5-235a-4314-9d81-7eceec56c960)
 
