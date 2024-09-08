@@ -73,13 +73,11 @@
 
 
 
-<p align="center">
- <img src="https://github.com/user-attachments/assets/da8f7c91-31fd-45f9-a4c5-7fa629c54d2f" alt="animated" />
-</p>
 
-<p align="center">
- <img src="https://github.com/user-attachments/assets/11399f88-e4a1-4f0b-80ea-75225e1ac246" alt="animated" />
-</p>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ae6eadc9-dbe5-46c7-bf1a-0733830069d3" alt="AI Detection Challenges" width="400" height="300" style="margin: 10px; border: 4px solid #007BFF; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" />
+  <img src="https://github.com/user-attachments/assets/11399f88-e4a1-4f0b-80ea-75225e1ac246" alt="AI Detection Challenges" width="400" height="300" style="margin: 10px; border: 4px solid #007BFF; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" />
+</div>
 
 
 
