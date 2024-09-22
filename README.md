@@ -67,7 +67,7 @@ The following animations illustrate the challenges of relying solely on artifici
 ### Unique Identifications
 The dataset also includes images of individuals wearing the same clothing at different times. For example, one identity was seen in various frames wearing a tent and later in a mantle.
 
-![Identity Variation](https://github.com/user-attachments/assets/03590215-9ce6-42d7-8e50-36a6baea79d5)
+![Identity Variation](https://github.com/user-attachments/assets/03590215-9ce6-42d7-8e50-36a6ba9d5)
 
 ## Download the Dataset
 You can download the dataset package from [this link](https://zaya.io/cnzrl).
