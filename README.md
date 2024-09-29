@@ -70,9 +70,9 @@ The dataset also includes images of individuals wearing the same clothing at dif
 ![Identity Variation](https://github.com/user-attachments/assets/03590215-9ce6-42d7-8e50-36a6ba9d5)
 
 ## Download the Dataset
-{% comment %} 
-    You can download the dataset package from [this link](https://drive.google.com/file/d/10hN0mZlD3bv10P9vAdbfszpikMe92QFv/view?usp=sharing).
-{% endcomment %}
+
+[]    (You can download the dataset package from [this link](https://drive.google.com/file/d/10hN0mZlD3bv10P9vAdbfszpikMe92QFv/view?usp=sharing).)
+
  
 
 ### Bounding Box Naming Convention
