@@ -71,7 +71,7 @@ The dataset also includes images of individuals wearing the same clothing at dif
 
 ## Download the Dataset
 
-#You can download the dataset package from [this link](https://drive.google.com/file/d/10hN0mZlD3bv10P9vAdbfszpikMe92QFv/view?usp=sharing).
+<!--- You can download the dataset package from [this link](https://drive.google.com/file/d/10hN0mZlD3bv10P9vAdbfszpikMe92QFv/view?usp=sharing).  --->
 
  
 
