@@ -55,14 +55,11 @@ For detailed annotation rules, refer to the [annotation documentation](https://d
 </p>
 
 ### Demonstration of AI Limitations
-The following animations illustrate the challenges of relying solely on artificial intelligence models:
+The following video illustrate the challenges of relying solely on artificial intelligence models:
+
+https://github.com/user-attachments/assets/4cef8880-6f00-43e4-a52d-eb3f8657c31b
 
 
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/ae6eadc9-dbe5-46c7-bf1a-0733830069d3" alt="AI Detection Challenges" width="400" height="300" style="margin: 10px; border: 4px solid #007BFF; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" />
-  <img src="https://github.com/user-attachments/assets/11399f88-e4a1-4f0b-80ea-75225e1ac246" alt="AI Detection Challenges" width="400" height="300" style="margin: 10px; border: 4px solid #007BFF; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" />
-</div>
 
 ### Unique Identifications
 The dataset also includes images of individuals wearing the same clothing at different times. For example, one identity was seen in various frames wearing a tent and later in a mantle.
