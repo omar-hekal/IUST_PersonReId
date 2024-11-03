@@ -73,6 +73,8 @@ The dataset also includes images of individuals wearing the same clothing at dif
  
 
 ### Bounding Box Naming Convention
+You can download the dataset from [Google Drive](https://drive.google.com/file/d/1Q2DDAx1abr9D3PK64rprUpYcWFGPUoAY/view?usp=sharing).
+
 The naming convention for bounding boxes is as follows: **C1_F6595_ID10.jpeg**
 
 - **C1**: Camera number at the specific location.
