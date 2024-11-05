@@ -113,7 +113,7 @@ We trained a **Soldier Re-identification (ReID)** model using the **IUST_PersonR
 
 | Model | Rank-1 | Rank-5 | Rank-10 | mAP |
 |-------|--------|--------|---------|-----|
-|Solider| %      | %      | %       | %   |
+|SOLIDER| %      | %      | %       | %   |
 
 To make it easy to reproduce the results, we created a [**Google Colab notebook**](https://colab.research.google.com/drive/1Q_lA1Hi_SqVnYueyqlhTaxM2SpbRsd_K?usp=sharing) that allows users to train and test the model on this dataset. The notebook provides simple instructions for training and evaluating the model.
 
