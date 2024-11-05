@@ -1,7 +1,7 @@
 # IUST_PersonReID Dataset  
 <div align="left">
  
-[![per](https://img.shields.io/badge/lang-per-yellow.svg)](https://github.com/ComputerVisionIUST/IUST_PersonReId/blob/main/README.per.md)  
+[![per](https://img.shields.io/badge/Language-Persian-orange.svg)](https://github.com/ComputerVisionIUST/IUST_PersonReId/blob/main/README.per.md)  
 
 </div>
 
@@ -36,6 +36,10 @@ The following table compares our dataset with some well-known labeled datasets g
 
 ### Annotation Statistics
 As of now, the dataset contains over 270,000 frames with 32,668 annotated bounding boxes across 3,205 identities. Notably, 1,878 identities appear in multiple cameras, while 1,327 identities are unique to a single camera. Gender distribution includes 50 female and 20 male identities.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b94e5b53-8a8f-433c-a562-87f6d6af7381" width="500" alt="Number of IDs per Camera numbers" />
+</p>
+
 
 ## Key Features
 
@@ -49,17 +53,10 @@ As of now, the dataset contains over 270,000 frames with 32,668 annotated boundi
 
 For detailed annotation rules, refer to the [annotation documentation](https://docs.google.com/document/d/1Upnm1nJ9e8Jn3odAjlbICwgNXtRzPghF7wl5_eQRcdo/edit?usp=sharing).
 
-### Labeled Data Overview
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/67226f29-5ab6-4e36-ac66-b910b48faad1" width="750" alt="Labeled Data Overview" />
-</p>
-
 ### Demonstration of AI Limitations
 The following video illustrate the challenges of relying solely on artificial intelligence models:
 
 https://github.com/user-attachments/assets/4cef8880-6f00-43e4-a52d-eb3f8657c31b
-
-
 
 ### Unique Identifications
 The dataset also includes images of individuals wearing the same clothing at different times. For example, one identity was seen in various frames wearing a tent and later in a mantle.
@@ -68,17 +65,43 @@ The dataset also includes images of individuals wearing the same clothing at dif
 
 ## Download the Dataset
 
-<!--- You can download the dataset package from [this link](https://drive.google.com/file/d/10hN0mZlD3bv10P9vAdbfszpikMe92QFv/view?usp=sharing).  --->
-
- 
+You can download the dataset package from [Google Drive](https://zaya.io/iust_personreid).
 
 ### Bounding Box Naming Convention
-You can download the dataset from [Google Drive](https://drive.google.com/file/d/1Q2DDAx1abr9D3PK64rprUpYcWFGPUoAY/view?usp=sharing).
 
-The naming convention for bounding boxes is as follows: **C1_F6595_ID10.jpeg**
+The **IUST_PersonReID** dataset adopts a naming convention identical to that of the Market-1501 dataset. The image naming format is structured as follows:
 
-- **C1**: Camera number at the specific location.
-- **F6595**: Frame number of that individual in the partitioned video.
-- **ID10**: Identity number of the individual in the dataset.
+```
+<personID>_<cameraID>_<sequenceID>_<frameID>.<extension>
+```
+
+#### Components Breakdown
+
+1. **personID**: A unique identifier for each individual in the dataset, ranging from `0001` to the total number of identified persons.
+
+2. **cameraID**: A single-digit identifier indicating the camera that captured the image. This ranges from `1` to the total number of cameras used in the dataset.
+
+3. **sequenceID**: In the **IUST_PersonReID** dataset, this field is often fixed as `s1`, as it does not vary significantly.
+
+4. **frameID**: A unique number that indicates the frame in which the person appears. This is crucial for distinguishing images captured in rapid succession of the same person and camera.
+
+5. **extension**: The file format of the image, typically `.jpg`.
+
+#### Example Filename
+
+A typical filename in the **IUST_PersonReID** dataset might look like this:
+
+```
+0001_c1_s1_000151.jpg
+```
+
+#### Interpretation:
+
+- **0001**: `personID` = `0001`
+- **c1**: `cameraID` = `1`
+- **s1**: `sequenceID` = `1` (often static in this dataset)
+- **000151**: `frameID` = `151`
+
+Each image represents a cropped bounding box of a pedestrian captured by one of the cameras in a real-world setting. The `personID` and `cameraID` are particularly important for person re-identification tasks, where the goal is to match images of the same individual across different camera views.
 
 ---
