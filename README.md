@@ -8,11 +8,10 @@
 ![Dataset Overview](https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/782122d5-235a-4314-9d81-7eceec56c960)
 
 ## About the Dataset
+The **IUST_PersonReID** dataset was developed to address limitations in existing person re-identification datasets by including cultural and environmental contexts unique to **Islamic countries**, especially Iran and Iraq. Unlike common datasets, which don’t reflect the clothing styles common in these regions—such as hijabs and other coverings—the IUST_PersonReID dataset represents this diversity, helping to reduce **demographic bias** and improve model accuracy. Collected from a variety of real-world settings under different lighting, camera angles, indoor & outdoor, and weather conditions, this dataset provides extensive, overlapping views across multiple cameras. By capturing these unique conditions, IUST_PersonReID offers a valuable resource for developing re-ID models that perform more reliably across diverse environments and populations.
 
-The **IUST_PersonReID** dataset is distinct from international datasets, designed specifically to reflect the cultural and environmental context of Iran. It captures raw video footage from various locations under diverse conditions (e.g., film quality, lighting, camera angles), making it a valuable representation of real-world scenarios. The dataset includes overlapping fields of view from multiple cameras.
-
-### Recorded Locations
-The videos were recorded in the following locations, with details summarized in the table below:
+### Video Recording Locations
+The videos were recorded at the locations listed below, with details summarized in the following table:
 
 | Location                                      | Cameras | Total Hours | Resolution   | Number of Days |
 |-----------------------------------------------|---------|-------------|--------------|----------------|
@@ -22,8 +21,8 @@ The videos were recorded in the following locations, with details summarized in 
 | Local Supermarket                             | 6       | 124         | 1280×1944    | 4              |
 | Arbaeen Procession                            | 2       | 3           | 1280×720     | 5              |
 
-### Comparison with Other Datasets
-The following table compares our dataset with some well-known labeled datasets globally:
+### Dataset Comparison
+The table below compares our dataset with several well-known labeled datasets worldwide:
 
 | Dataset    | Location                | ID (Multi-Camera) | ID (Single Camera) | Scenes | Images   |
 |------------|-------------------------|--------------------|---------------------|--------|----------|
@@ -35,23 +34,23 @@ The following table compares our dataset with some well-known labeled datasets g
 | **IUST_PersonReID**   | **Various Locations in Iran & Iraq**| **1847**           | **-**            | **19**     | **118,883**        |
 
 ### Annotation Statistics
-As of now, the dataset contains over 270,000 frames with 32,668 annotated bounding boxes across 3,205 identities. Notably, 1,878 identities appear in multiple cameras, while 1,327 identities are unique to a single camera. Gender distribution includes 50 female and 20 male identities.
+The dataset contains 118,883 images featuring 1,847 unique identities across about 20 different scenes. Many identities are captured from multiple camera views, making this dataset valuable for testing cross-camera re-identification. You can see the distribution of identities across cameras in the image below.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b94e5b53-8a8f-433c-a562-87f6d6af7381" width="500" alt="Number of IDs per Camera numbers" />
 </p>
 
+## Key Dataset Features
 
-## Key Features
+1. **Automated Pedestrian Tracking**: We utilize multiple pedestrian tracking models to pre-label our data, selecting algorithms that perform best within specific environments. This approach leverages the unique strengths of each model. Our dataset is pre-labeled using [YOLOv5](https://docs.ultralytics.com/models/yolov5/), [YOLOv8](https://docs.ultralytics.com/models/yolov8/) with ByteTrack, [FairMOT](https://github.com/ifzhang/FairMOT), and [YOLOE](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.7/deploy/pipeline/docs/tutorials/pphuman_mot_en.md) models trained on the [CrowdHuman](https://www.crowdhuman.org/) dataset.
 
-1. **Pedestrian Tracking**: Utilizes the [YOLOE](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.7/deploy/pipeline/docs/tutorials/pphuman_mot_en.md) model trained on the [CrowdHuman](https://www.crowdhuman.org/) dataset.
-  
-2. **Human Annotations**: Human annotators refine the dataset to minimize errors in model training, addressing limitations of AI detection (e.g., missed detections, veiled individuals).
+2. **Human Annotation for Enhanced Accuracy**: Human annotators use the [CVAT]([https://github.com/opencv/cvat](https://github.com/cvat-ai/cvat)) tool to refine tracking model outputs, correcting errors such as missed detections and handling challenging cases like occlusions, veiled individuals, etc. This process significantly improves the accuracy and quality of the dataset.
 
-3. **Re-identification Model**: A basic person re-identification model was developed using [Swin Transformer](https://github.com/layumi/Person_reID_baseline_pytorch) on cropped images.
+3. **Cross-Camera Re-identification Model**: To aid in the cross-camera re-identification of individuals, we employ a pre-trained person re-identification model based on the [Swin Transformer](https://github.com/layumi/Person_reID_baseline_pytorch) model, applied to cropped images to pre-label our data.
 
-4. **Error Correction**: Human observers correct re-identification errors across different cameras using a temporal re-identification algorithm within a dedicated application.
+4. **Human-Guided Re-identification Correction**: Human reviewers further correct errors in the re-identification process across cameras using both temporal and appearance-based features. We developed a custom web application to streamline this annotation process, now publicly available on [CVLab-ReId-Tool](https://github.com/ComputerVisionIUST/CVLab-ReId-Tool), as no comparable tool was previously accessible to the public.
 
-For detailed annotation rules, refer to the [annotation documentation](https://docs.google.com/document/d/1Upnm1nJ9e8Jn3odAjlbICwgNXtRzPghF7wl5_eQRcdo/edit?usp=sharing).
+For detailed annotation guidelines, please refer to the [annotation documentation](https://docs.google.com/document/d/1Upnm1nJ9e8Jn3odAjlbICwgNXtRzPghF7wl5_eQRcdo/edit?usp=sharing) provided to annotators.
 
 ### Demonstration of AI Limitations
 Despite advancements in artificial intelligence, AI models still struggle with video data, often resulting in missed detections and inaccuracies in tracking individuals. The following video illustrates these limitations.
@@ -60,8 +59,8 @@ https://github.com/user-attachments/assets/4cef8880-6f00-43e4-a52d-eb3f8657c31b
 
 To overcome these issues, we employ human annotators to improve detection and tracking accuracy, ensuring a higher-quality dataset.
 
-### Unique Identifications
-The dataset also includes images of individuals wearing the same clothing at different times. For example, one identity was seen in various frames wearing a tent and later in a mantle.
+### Clothing Variations Over Time
+The dataset also features images of individuals wearing different clothing across different time frames. For instance, one identity is captured in several instances wearing a tent-like garment and later appearing in a mantle.
 
 ![Identity Variation](https://github.com/user-attachments/assets/03590215-9ce6-42d7-8e50-36a6ba9d5)
 
