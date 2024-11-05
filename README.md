@@ -25,14 +25,14 @@ The videos were recorded in the following locations, with details summarized in 
 ### Comparison with Other Datasets
 The following table compares our dataset with some well-known labeled datasets globally:
 
-| Dataset    | Location                | ID (Multi Camera) | ID (Single Camera) | Scenes | Images   |
+| Dataset    | Location                | ID (Multi-Camera) | ID (Single Camera) | Scenes | Images   |
 |------------|-------------------------|--------------------|---------------------|--------|----------|
-| ScoreNet   | Football Leagues        | 243432             | -                   | -      | 340993   |
-| MSMT17     | University Campus       | 4101               | -                   | 15     | 126441   |
-| Duke       | Duke University Campus   | 1413               | 439                 | 8      | 466261   |
-| MARS       | Tsinghua University     | 1261               | -                   | 6      | 1191003  |
-| Market1501 | Supermarket, Tsinghua   | 1501               | -                   | 6      | 32217    |
-| **IUST_PersonReID**   | Various Locations in Iran| **1878**           | **1327**            | 19     | -        |
+| [SoccerNet-ReID](https://github.com/SoccerNet/sn-reid)   | Football Leagues        | 243,432             | -                   | -      | 340,993   |
+| [MSMT17](https://www.pkuvmc.com/dataset.html)     | University Campus       | 4,101               | -                   | 15     | 126,441   |
+| [Duke](https://paperswithcode.com/dataset/dukemtmc-reid)       | Duke University Campus   | 1,413               | 439                 | 8      | 466,261   |
+| [MARS](http://zheng-lab.cecs.anu.edu.au/Project/project_mars.html)       | Tsinghua University     | 1,261               | -                   | 6      | 1,191,003  |
+| [Market1501](https://paperswithcode.com/dataset/market-1501) | Supermarket, Tsinghua   | 1,501               | -                   | 6      | 32,217    |
+| **IUST_PersonReID**   | **Various Locations in Iran & Iraq**| **1847**           | **-**            | **19**     | **118,883**        |
 
 ### Annotation Statistics
 As of now, the dataset contains over 270,000 frames with 32,668 annotated bounding boxes across 3,205 identities. Notably, 1,878 identities appear in multiple cameras, while 1,327 identities are unique to a single camera. Gender distribution includes 50 female and 20 male identities.
@@ -54,9 +54,11 @@ As of now, the dataset contains over 270,000 frames with 32,668 annotated boundi
 For detailed annotation rules, refer to the [annotation documentation](https://docs.google.com/document/d/1Upnm1nJ9e8Jn3odAjlbICwgNXtRzPghF7wl5_eQRcdo/edit?usp=sharing).
 
 ### Demonstration of AI Limitations
-The following video illustrate the challenges of relying solely on artificial intelligence models:
+While artificial intelligence models have made significant advancements in detection and tracking tasks, they still face challenges, particularly when processing video data. The following video demonstrates the limitations of relying solely on AI for these tasks, highlighting issues such as missed detections and inaccuracies in tracking individuals across frames.
 
 https://github.com/user-attachments/assets/4cef8880-6f00-43e4-a52d-eb3f8657c31b
+
+To address these challenges, we employ human annotators to refine the detection and tracking results produced by AI models. Their expertise ensures greater accuracy in identifying individuals and correcting errors, thereby enhancing the overall quality of the dataset.
 
 ### Unique Identifications
 The dataset also includes images of individuals wearing the same clothing at different times. For example, one identity was seen in various frames wearing a tent and later in a mantle.
