@@ -107,7 +107,7 @@ A typical filename in the **IUST_PersonReID** dataset might look like this:
 Each image represents a cropped bounding box of a pedestrian captured by one of the cameras in a real-world setting. The `personID` and `cameraID` are particularly important for person re-identification tasks, where the goal is to match images of the same individual across different camera views.
 
 
-## Soldier Re-identification Model Training and Evaluation
+## SOLIDER Re-identification Model Training and Evaluation
 
 We trained a **Soldier Re-identification (ReID)** model using the **IUST_PersonReID** dataset to showcase its performance on the specific challenges of this dataset, such as varying clothing and different environments.
 
