@@ -1,7 +1,8 @@
 # IUST_PersonReID Dataset  
-<div align="left">
+<div align="center">
  
-[![per](https://img.shields.io/badge/Language-Persian-orange.svg)](https://github.com/ComputerVisionIUST/IUST_PersonReId/blob/main/README.per.md)  
+[![per](https://img.shields.io/badge/Language-Persian-orange.svg)](https://github.com/ComputerVisionIUST/IUST_PersonReId/blob/main/README.per.md)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Q_lA1Hi_SqVnYueyqlhTaxM2SpbRsd_K?usp=sharing)
 
 </div>
 
@@ -60,7 +61,7 @@ https://github.com/user-attachments/assets/4cef8880-6f00-43e4-a52d-eb3f8657c31b
 To overcome these issues, we employ human annotators to improve detection and tracking accuracy, ensuring a higher-quality dataset.
 
 ### Clothing Variations Over Time
-The dataset also features images of individuals wearing different clothing across different time frames. For instance, one identity is captured in several instances wearing a tent-like garment and later appearing in a mantle.
+The dataset also features images of individuals wearing different clothing across time frames. For instance, one identity is often captured wearing a tent-like garment and later appearing on a mantle.
 
 ![Identity Variation](https://github.com/user-attachments/assets/03590215-9ce6-42d7-8e50-36a6ba9d5)
 
@@ -104,5 +105,16 @@ A typical filename in the **IUST_PersonReID** dataset might look like this:
 - **000151**: `frameID` = `151`
 
 Each image represents a cropped bounding box of a pedestrian captured by one of the cameras in a real-world setting. The `personID` and `cameraID` are particularly important for person re-identification tasks, where the goal is to match images of the same individual across different camera views.
+
+
+## Soldier Re-identification Model Training and Evaluation
+
+We trained a **Soldier Re-identification (ReID)** model using the **IUST_PersonReID** dataset to showcase its performance on the specific challenges of this dataset, such as varying clothing and different environments.
+
+| Model | Rank-1 | Rank-5 | Rank-10 | mAP |
+|-------|--------|--------|---------|-----|
+|Solider| %      | %      | %       | %   |
+
+To make it easy to reproduce the results, we created a [**Google Colab notebook**](https://colab.research.google.com/drive/1Q_lA1Hi_SqVnYueyqlhTaxM2SpbRsd_K?usp=sharing) that allows users to train and test the model on this dataset. The notebook provides simple instructions for training and evaluating the model.
 
 ---
