@@ -54,11 +54,11 @@ As of now, the dataset contains over 270,000 frames with 32,668 annotated boundi
 For detailed annotation rules, refer to the [annotation documentation](https://docs.google.com/document/d/1Upnm1nJ9e8Jn3odAjlbICwgNXtRzPghF7wl5_eQRcdo/edit?usp=sharing).
 
 ### Demonstration of AI Limitations
-While artificial intelligence models have made significant advancements in detection and tracking tasks, they still face challenges, particularly when processing video data. The following video demonstrates the limitations of relying solely on AI for these tasks, highlighting issues such as missed detections and inaccuracies in tracking individuals across frames.
+Despite advancements in artificial intelligence, AI models still struggle with video data, often resulting in missed detections and inaccuracies in tracking individuals. The following video illustrates these limitations.
 
 https://github.com/user-attachments/assets/4cef8880-6f00-43e4-a52d-eb3f8657c31b
 
-To address these challenges, we employ human annotators to refine the detection and tracking results produced by AI models. Their expertise ensures greater accuracy in identifying individuals and correcting errors, thereby enhancing the overall quality of the dataset.
+To overcome these issues, we employ human annotators to improve detection and tracking accuracy, ensuring a higher-quality dataset.
 
 ### Unique Identifications
 The dataset also includes images of individuals wearing the same clothing at different times. For example, one identity was seen in various frames wearing a tent and later in a mantle.
