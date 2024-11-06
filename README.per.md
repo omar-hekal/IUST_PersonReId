@@ -65,7 +65,8 @@ https://github.com/user-attachments/assets/4cef8880-6f00-43e4-a52d-eb3f8657c31b
 
  در زمان‌های مختلف لباس‌های متفاوتی به تن دارند. به عنوان مثال، یک فرد در ابتدا با پوشش چادر و بعداً با یک مانتو در تصویر دیده شده‌است.
 
-![تغییر هویت](https://github.com/user-attachments/assets/03590215-9ce6-42d7-8e50-36a6ba9d5)
+![clothing-variations-over-time](https://github.com/user-attachments/assets/ddba33b4-cd60-4d38-bea4-e2473b78206c)
+
 
 ## دریافت مجموعه‌داده
 
@@ -114,6 +115,6 @@ https://github.com/user-attachments/assets/4cef8880-6f00-43e4-a52d-eb3f8657c31b
 
 | Model | Rank-1 | Rank-5 | Rank-10 | mAP |
 |------|--------|--------|---------|-----|
-|SOLIDER| %      | %      | %       | %   |
+|SOLIDER| 51.08%      | 65.32%      | 70.76%       | 42.35%   |
 
 برای راحتی بازتولید نتایج، یک [**Google Colab notebook**](https://colab.research.google.com/drive/1Q_lA1Hi_SqVnYueyqlhTaxM2SpbRsd_K?usp=sharing) ایجاد کردیم که به کاربران این امکان می‌دهد که مدل را بر روی این مجموعه‌داده آموزش و آزمایش کنند. این notebook دستورالعمل‌های آموزش و ارزیابی مدل را دارا است.
