@@ -63,7 +63,8 @@ To overcome these issues, we employ human annotators to improve detection and tr
 ### Clothing Variations Over Time
 The dataset also features images of individuals wearing different clothing across time frames. For instance, one identity is often captured wearing a tent-like garment and later appearing on a mantle.
 
-![Identity Variation](https://github.com/user-attachments/assets/03590215-9ce6-42d7-8e50-36a6ba9d5)
+![clothing-variations-over-time](https://github.com/user-attachments/assets/d79bb5bc-59b6-4476-b135-8a23c4f97c96)
+
 
 ## Download the Dataset
 
@@ -113,7 +114,7 @@ We trained a **Soldier Re-identification (ReID)** model using the **IUST_PersonR
 
 | Model | Rank-1 | Rank-5 | Rank-10 | mAP |
 |-------|--------|--------|---------|-----|
-|SOLIDER| %      | %      | %       | %   |
+|SOLIDER| 51.08%      | 65.32%      | 70.76%       | 42.35%   |
 
 To make it easy to reproduce the results, we created a [**Google Colab notebook**](https://colab.research.google.com/drive/1Q_lA1Hi_SqVnYueyqlhTaxM2SpbRsd_K?usp=sharing) that allows users to train and test the model on this dataset. The notebook provides simple instructions for training and evaluating the model.
 
