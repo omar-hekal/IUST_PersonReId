@@ -119,4 +119,18 @@ We trained a **Soldier Re-identification (ReID)** model using the **IUST_PersonR
 
 To make it easy to reproduce the results, we created a [**Google Colab notebook**](https://colab.research.google.com/drive/1Q_lA1Hi_SqVnYueyqlhTaxM2SpbRsd_K?usp=sharing) that allows users to train and test the model on this dataset. The notebook provides simple instructions for training and evaluating the model.
 
+## Citation
+
+If you find this dataset useful for your research, please cite it.
+
+```
+@unpublished{iustpersonreid,
+  author       = {A. Sedighi Moghaddam and F. Anvari and MJ. Mirshekari and MA.Fakhari and MR. Mohammadi},
+  title        = {{IUSTPersonReID: A New Domain in Person Re-Identification Datasets}},
+  note         = {Dataset accessible at \url{https://github.com/ComputerVisionIUST/IUST_PersonReId}},
+  year         = {2024},
+  month        = {Oct},
+  organization = {Computer Vision Lab, Iran University of Science and Technology}}
+}
+```
 ---
