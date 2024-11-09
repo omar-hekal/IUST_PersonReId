@@ -123,7 +123,7 @@ To make it easy to reproduce the results, we created a [**Google Colab notebook*
 
 If you find this dataset useful for your research, please cite it.
 
-```
+```bibtex
 @unpublished{iustpersonreid,
   author       = {A. Sedighi Moghaddam and F. Anvari and MJ. Mirshekari and MA.Fakhari and MR. Mohammadi},
   title        = {{IUSTPersonReID: A New Domain in Person Re-Identification Datasets}},
