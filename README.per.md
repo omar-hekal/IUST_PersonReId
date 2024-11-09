@@ -119,3 +119,18 @@ https://github.com/user-attachments/assets/4cef8880-6f00-43e4-a52d-eb3f8657c31b
 |SOLIDER| 51.08%      | 65.32%      | 70.76%       | 42.35%   |
 
 برای راحتی بازتولید نتایج، یک [**Google Colab notebook**](https://colab.research.google.com/drive/1Q_lA1Hi_SqVnYueyqlhTaxM2SpbRsd_K?usp=sharing) ایجاد کردیم که به کاربران این امکان می‌دهد که مدل را بر روی این مجموعه‌داده آموزش و آزمایش کنند. این notebook دستورالعمل‌های آموزش و ارزیابی مدل را دارا است.
+
+## ارجاع
+
+اگر این مجموعه‌داده برای تحقیقات شما مفید واقع شد، لطفا به صورت زیر به آن ارجاع دهید.
+
+```bibtex
+@unpublished{iustpersonreid,
+  author       = {A. Sedighi Moghaddam and F. Anvari and MJ. Mirshekari and MA.Fakhari and MR. Mohammadi},
+  title        = {{IUSTPersonReID: A New Domain in Person Re-Identification Datasets}},
+  note         = {Dataset accessible at \url{https://github.com/ComputerVisionIUST/IUST_PersonReId}},
+  year         = {2024},
+  month        = {Oct},
+  organization = {Computer Vision Lab, Iran University of Science and Technology}}
+}
+```
