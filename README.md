@@ -35,10 +35,11 @@ The table below compares our dataset with several well-known labeled datasets wo
 | **IUST_PersonReID**   | **Various Locations in Iran & Iraq**| **1847**           | **-**            | **19**     | **118,883**        |
 
 ### Annotation Statistics
-The dataset contains 118,883 images featuring 1,847 unique identities across about 20 different scenes. Many identities are captured from multiple camera views, making this dataset valuable for testing cross-camera re-identification. You can see the distribution of identities across cameras in the image below.
+The dataset contains 118,883 images featuring 1,847 unique identities across about 20 different scenes. Many identities are captured from multiple camera views, making this dataset valuable for testing cross-camera re-identification. You can see the distribution of identities across cameras and genders in the images below.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b94e5b53-8a8f-433c-a562-87f6d6af7381" width="500" alt="Number of IDs per Camera numbers" />
+  <img src="https://github.com/user-attachments/assets/b94e5b53-8a8f-433c-a562-87f6d6af7381" width="45%" alt="Number of IDs per Camera numbers" />
+  <img src="https://github.com/user-attachments/assets/5ff8315f-d413-4bf7-9d51-050f8b1863b6" width="45%" alt="Number of IDs per Gender" />
 </p>
 
 ## Key Dataset Features
@@ -118,4 +119,18 @@ We trained a **Soldier Re-identification (ReID)** model using the **IUST_PersonR
 
 To make it easy to reproduce the results, we created a [**Google Colab notebook**](https://colab.research.google.com/drive/1Q_lA1Hi_SqVnYueyqlhTaxM2SpbRsd_K?usp=sharing) that allows users to train and test the model on this dataset. The notebook provides simple instructions for training and evaluating the model.
 
+## Citation
+
+If you find this dataset useful for your research, please cite it.
+
+```bibtex
+@unpublished{iustpersonreid,
+  author       = {A. Sedighi Moghaddam and F. Anvari and MJ. Mirshekari and MA.Fakhari and MR. Mohammadi},
+  title        = {{IUSTPersonReID: A New Domain in Person Re-Identification Datasets}},
+  note         = {Dataset accessible at \url{https://github.com/ComputerVisionIUST/IUST_PersonReId}},
+  year         = {2024},
+  month        = {Oct},
+  organization = {Computer Vision Lab, Iran University of Science and Technology}}
+}
+```
 ---

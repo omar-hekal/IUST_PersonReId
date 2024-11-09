@@ -38,7 +38,8 @@
 این مجموعه‌داده شامل 118,883 تصویر است که 1,847 هویت منحصر به فرد را در حدود 20 صحنه مختلف به تصویر می‌کشد. هویت‌ها از زوایای دوربین‌های متعدد ثبت شده‌اند. شما می‌توانید توزیع هویت‌ها در دوربین‌ها را در تصویر زیر مشاهده کنید.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b94e5b53-8a8f-433c-a562-87f6d6af7381" width="500" alt="تعداد ID ها در هر دوربین" />
+  <img src="https://github.com/user-attachments/assets/b94e5b53-8a8f-433c-a562-87f6d6af7381" width="45%" alt="Number of IDs per Camera numbers" />
+  <img src="https://github.com/user-attachments/assets/5ff8315f-d413-4bf7-9d51-050f8b1863b6" width="45%" alt="Number of IDs per Gender" />
 </p>
 
 ## ویژگی‌های کلیدی مجموعه‌داده
@@ -118,3 +119,18 @@ https://github.com/user-attachments/assets/4cef8880-6f00-43e4-a52d-eb3f8657c31b
 |SOLIDER| 51.08%      | 65.32%      | 70.76%       | 42.35%   |
 
 برای راحتی بازتولید نتایج، یک [**Google Colab notebook**](https://colab.research.google.com/drive/1Q_lA1Hi_SqVnYueyqlhTaxM2SpbRsd_K?usp=sharing) ایجاد کردیم که به کاربران این امکان می‌دهد که مدل را بر روی این مجموعه‌داده آموزش و آزمایش کنند. این notebook دستورالعمل‌های آموزش و ارزیابی مدل را دارا است.
+
+## ارجاع
+
+اگر این مجموعه‌داده برای تحقیقات شما مفید واقع شد، لطفا به صورت زیر به آن ارجاع دهید.
+
+```bibtex
+@unpublished{iustpersonreid,
+  author       = {A. Sedighi Moghaddam and F. Anvari and MJ. Mirshekari and MA.Fakhari and MR. Mohammadi},
+  title        = {{IUSTPersonReID: A New Domain in Person Re-Identification Datasets}},
+  note         = {Dataset accessible at \url{https://github.com/ComputerVisionIUST/IUST_PersonReId}},
+  year         = {2024},
+  month        = {Oct},
+  organization = {Computer Vision Lab, Iran University of Science and Technology}}
+}
+```
