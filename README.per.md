@@ -38,7 +38,8 @@
 این مجموعه‌داده شامل 118,883 تصویر است که 1,847 هویت منحصر به فرد را در حدود 20 صحنه مختلف به تصویر می‌کشد. هویت‌ها از زوایای دوربین‌های متعدد ثبت شده‌اند. شما می‌توانید توزیع هویت‌ها در دوربین‌ها را در تصویر زیر مشاهده کنید.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b94e5b53-8a8f-433c-a562-87f6d6af7381" width="500" alt="تعداد ID ها در هر دوربین" />
+  <img src="https://github.com/user-attachments/assets/b94e5b53-8a8f-433c-a562-87f6d6af7381" width="45%" alt="Number of IDs per Camera numbers" />
+  <img src="https://github.com/user-attachments/assets/5ff8315f-d413-4bf7-9d51-050f8b1863b6" width="45%" alt="Number of IDs per Gender" />
 </p>
 
 ## ویژگی‌های کلیدی مجموعه‌داده
