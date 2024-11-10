@@ -109,13 +109,14 @@ A typical filename in the **IUST_PersonReID** dataset might look like this:
 Each image represents a cropped bounding box of a pedestrian captured by one of the cameras in a real-world setting. The `personID` and `cameraID` are particularly important for person re-identification tasks, where the goal is to match images of the same individual across different camera views.
 
 
-## SOLIDER Re-identification Model Training and Evaluation
+## Re-identification Models Training and Evaluation
 
-We trained a **Soldier Re-identification (ReID)** model using the **IUST_PersonReID** dataset to showcase its performance on the specific challenges of this dataset, such as varying clothing and different environments.
+We trained various person re-identification models using the **IUST_PersonReID** dataset to showcase their performance on the specific challenges of this dataset, such as varying clothing and different environments.
 
 | Model | Rank-1 | Rank-5 | Rank-10 | mAP |
 |-------|--------|--------|---------|-----|
-|SOLIDER| 51.08%      | 65.32%      | 70.76%       | 42.35%   |
+|[SOLIDER-ReID](https://github.com/tinyvision/SOLIDER-REID)| 51.08%      | 65.32%      | 70.76%       | 42.35%   |
+|[CLIP-ReID](https://github.com/Syliz517/CLIP-ReID)| 61.40% | 72.50% | 77.50% | 51.60% |
 
 To make it easy to reproduce the results, we created a [**Google Colab notebook**](https://colab.research.google.com/drive/1Q_lA1Hi_SqVnYueyqlhTaxM2SpbRsd_K?usp=sharing) that allows users to train and test the model on this dataset. The notebook provides simple instructions for training and evaluating the model.
 
