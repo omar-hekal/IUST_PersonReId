@@ -32,10 +32,10 @@ The table below compares our dataset with several well-known labeled datasets wo
 | [Duke](https://paperswithcode.com/dataset/dukemtmc-reid)       | Duke University Campus   | 1,413               | 439                 | 8      | 466,261   |
 | [MARS](http://zheng-lab.cecs.anu.edu.au/Project/project_mars.html)       | Tsinghua University     | 1,261               | -                   | 6      | 1,191,003  |
 | [Market1501](https://paperswithcode.com/dataset/market-1501) | Supermarket, Tsinghua   | 1,501               | -                   | 6      | 32,217    |
-| **IUST_PersonReID**   | **Various Locations in Iran & Iraq**| **1847**           | **-**            | **19**     | **118,883**        |
+| **IUST_PersonReID**   | **Various Locations in Iran & Iraq**| **1847**           | **-**            | **19**     | **117,455**        |
 
 ### Annotation Statistics
-The dataset contains 118,883 images featuring 1,847 unique identities across about 20 different scenes. Many identities are captured from multiple camera views, making this dataset valuable for testing cross-camera re-identification. You can see the distribution of identities across cameras and genders in the images below.
+The dataset contains 117,455 images featuring 1,847 unique identities across about 20 different scenes. Many identities are captured from multiple camera views, making this dataset valuable for testing cross-camera re-identification. You can see the distribution of identities across cameras and genders in the images below.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b94e5b53-8a8f-433c-a562-87f6d6af7381" width="45%" alt="Number of IDs per Camera numbers" />
