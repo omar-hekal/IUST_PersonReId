@@ -8,6 +8,10 @@
 
 ![Dataset Overview](https://github.com/IRIUST/Iranians_Reid_dataset/assets/141324225/782122d5-235a-4314-9d81-7eceec56c960)
 
+## News! ✨📢  
+We are pleased to announce the release of **IUST_PersonReID Dataset Paper**, now available on [**arXiv**](https://arxiv.org/abs/2412.18874).  
+We invite you to explore our work and welcome any feedback or discussions.
+
 ## About the Dataset
 The **IUST_PersonReID** dataset was developed to address limitations in existing person re-identification datasets by including cultural and environmental contexts unique to **Islamic countries**, especially Iran and Iraq. Unlike common datasets, which don’t reflect the clothing styles common in these regions—such as hijabs and other coverings—the IUST_PersonReID dataset represents this diversity, helping to reduce **demographic bias** and improve model accuracy. Collected from a variety of real-world settings under different lighting, camera angles, indoor & outdoor, and weather conditions, this dataset provides extensive, overlapping views across multiple cameras. By capturing these unique conditions, IUST_PersonReID offers a valuable resource for developing re-ID models that perform more reliably across diverse environments and populations.
 
@@ -122,16 +126,14 @@ To make it easy to reproduce the results, we created a [**Google Colab notebook*
 
 ## Citation
 
-If you find this dataset useful for your research, please cite it.
+If you find this dataset useful for your research, please cite our paper.
 
 ```bibtex
-@unpublished{iustpersonreid,
-  author       = {A. Sedighi Moghaddam and F. Anvari and MJ. Mirshekari and MA.Fakhari and MR. Mohammadi},
-  title        = {{IUSTPersonReID: A New Domain in Person Re-Identification Datasets}},
-  note         = {Dataset accessible at \url{https://github.com/ComputerVisionIUST/IUST_PersonReId}},
-  year         = {2024},
-  month        = {Oct},
-  organization = {Computer Vision Lab, Iran University of Science and Technology}}
+@article{moghaddam2024iust_personreid,
+  title={IUST\_PersonReId: A New Domain in Person Re-Identification Datasets},
+  author={Moghaddam, Alireza Sedighi and Anvari, Fatemeh and Haghighi, Mohammadjavad Mirshekari and Fakhari, Mohammadali and Mohammadi, Mohammad Reza},
+  journal={arXiv preprint arXiv:2412.18874},
+  year={2024}
 }
 ```
 ---
