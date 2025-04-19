@@ -20,7 +20,7 @@ INPUT:
 
 DATASETS:
   NAMES: ('IUSTPersonReID')                                                                
-  ROOT_DIR: ('/path/to/dataset/')                               
+  ROOT_DIR: ('IUSTPersonReID')                               
   QUERY_FILTER: False
   GALLERY_FILTER: False
   TRAINING_FILTER: False
